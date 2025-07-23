@@ -1,0 +1,149 @@
+/* Reset default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Logo & Header */
+#logo-navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  padding: 15px 30px;
+}
+
+.branding {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.brand-name {
+  font-size: 24px;
+  color: #222;
+  margin-right: auto;
+}
+
+/* Navigation */
+nav a {
+  text-decoration: none;
+  color: #0073e6;
+  margin: 0 10px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #0056b3;
+}
+
+/* Welcome / About Section */
+#About-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.welcome-image {
+  width:auto;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+
+.about-text {
+  max-width: 600px;
+}
+
+.about-text h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Job Section */
+#jobs {
+  background-color: #ffffff;
+  padding: 40px 20px;
+}
+
+#jobs h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.job-card {
+  background-color: #f0f4f8;
+  border-left: 4px solid #0073e6;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 700px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.job-card h3 {
+  color: #0073e6;
+  margin-bottom: 10px;
+}
+
+.job-card a {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #0073e6;
+  color: #fff;
+  padding: 8px 14px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.job-card a:hover {
+  background-color: #005bb5;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #1e1e1e;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+  font-size: 14px;
+}
+
+.site-footer a {
+  color: #00bcd4;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
